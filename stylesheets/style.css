@@ -51,6 +51,16 @@ body {
   text-transform: uppercase;
 }
 
+.downarrow {
+  grid-row: 15;
+  grid-column: 5;
+  background-image: url("/img/downarrow-icon.png");
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
 .right-img {
   grid-column: 10/19;
   grid-row: 3/18;

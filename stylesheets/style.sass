@@ -3,6 +3,7 @@ $body-font: 'Roboto Slab', serif
 
 
 $dog-img-1: url("/img/dog1.png")
+$down-arrow: url('/img/downarrow-icon.png')
 
 body 
     margin: 0
@@ -59,6 +60,15 @@ body
     margin: auto
     font-weight: 200
     text-transform: uppercase
+
+.downarrow
+    grid-row: 15
+    grid-column: 5
+    background-image: $down-arrow
+    background-size: contain
+    background-position: center
+    overflow: hidden
+    background-repeat: no-repeat
 
 .right-img
     grid-column: 10/19
