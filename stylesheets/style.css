@@ -14,8 +14,8 @@ body {
 
 .content {
   display: grid;
-  grid-template-columns: repeat(1fr 18);
-  grid-template-rows: repeat(1fr 18);
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(18, 1fr);
   min-height: 100vh;
   max-height: 100vh;
   min-width: 100vw;
@@ -23,7 +23,7 @@ body {
 }
 
 .dark-bg {
-  background-color: #333333;
+  background-color: #000000;
 }
 
 .light-bg {
@@ -39,15 +39,13 @@ body {
 }
 
 .right-img {
-  grid-column: 9/18;
-  grid-row: 1/18;
-  margin: 0;
-  justify-content: center;
-  object-fit: contain;
+  grid-column: 11/19;
+  grid-row: 4/18;
+  background-image: url("/img/dog1.png");
+  background-size: cover;
+  background-position: center;
   overflow: hidden;
-  max-width: 50vw;
-  max-height: 100vh;
-  background-color: RED;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */
