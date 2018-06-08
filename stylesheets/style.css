@@ -23,7 +23,7 @@ body {
 }
 
 .dark-bg {
-  background-color: #000000;
+  background-color: #0f0200;
 }
 
 .light-bg {
@@ -32,43 +32,71 @@ body {
 
 .left-title {
   grid-column: 1/10;
-  grid-row: 10;
-  color: white;
+  grid-row: 9;
   font-family: "Exo 2", sans-serif;
-  font-size: 54px;
+  color: white;
+  font-size: 3.5vw;
   font-weight: bolder;
   margin: auto;
+  text-align: center;
 }
 
 .left-subtitle {
   grid-column: 1/10;
-  grid-row: 12;
+  grid-row: 10;
   color: white;
   font-family: "Exo 2", sans-serif;
-  font-size: 18px;
+  font-size: 1.8vw;
   margin: auto;
   font-weight: 200;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .downarrow {
-  grid-row: 15;
+  grid-row: 13/16;
   grid-column: 5;
-  background-image: url("/img/downarrow-icon.png");
+  background-image: url("/img/adoptnow.png");
   background-size: contain;
   background-position: center;
   overflow: hidden;
   background-repeat: no-repeat;
+  width: 200px;
 }
 
 .right-img {
   grid-column: 10/19;
-  grid-row: 3/18;
+  grid-row: 5/19;
   background-image: url("/img/dog1.png");
   background-size: contain;
   background-position: center;
   overflow: hidden;
   background-repeat: no-repeat;
+  min-width: 50vw;
+  min-height: 80vh;
+}
+
+.left-title-2 {
+  grid-column: 1/10;
+  grid-row: 5;
+  font-family: "Exo 2", sans-serif;
+  color: #333333;
+  font-size: 2.5vw;
+  font-weight: bolder;
+  margin: auto;
+  text-align: center;
+}
+
+.light-ptext {
+  grid-column: 1/10;
+  padding: 5%;
+  grid-row: 7;
+  font-family: "Roboto Slab", serif;
+  color: #333333;
+  font-size: 1.2vw;
+  font-weight: lighter;
+  margin: auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
