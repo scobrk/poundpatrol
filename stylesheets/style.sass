@@ -1,6 +1,7 @@
 $lead-font: 'Exo 2', sans-serif
 $body-font: 'Roboto Slab', serif
 
+
 $dog-img-1: url("/img/dog1.png")
 
 body 
@@ -38,12 +39,26 @@ body
 .light-bg
     background-color: #FFFFFF
 
+// Left title and subtitle are individual objects with specific props for display. Subtitle text is incomplete.
+
 .left-title
-    grid-column: 4/8
+    grid-column: 1/10
     grid-row: 10
-    margin: 0
     color: white
     font-family: $lead-font
+    font-size: 54px
+    font-weight: bolder
+    margin: auto
+
+.left-subtitle
+    grid-column: 1/10
+    grid-row: 12
+    color: white
+    font-family: $lead-font
+    font-size: 18px
+    margin: auto
+    font-weight: 200
+    text-transform: uppercase
 
 .right-img
     grid-column: 10/19
