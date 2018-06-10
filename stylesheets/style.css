@@ -33,7 +33,7 @@ body {
 .left-title {
   grid-column: 1/10;
   grid-row: 9;
-  font-family: "Noto Serif", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: white;
   font-size: 3.5vw;
   font-weight: bolder;
@@ -45,7 +45,7 @@ body {
   grid-column: 1/10;
   grid-row: 11;
   color: white;
-  font-family: "Roboto", serif;
+  font-family: "Quattrocento", serif;
   font-size: 1.5vw;
   margin: auto;
   font-weight: 100;
@@ -78,7 +78,7 @@ body {
 .left-title-2 {
   grid-column: 1/10;
   grid-row: 2/7;
-  font-family: "Noto Serif", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #333333;
   font-size: 3.5vw;
   font-weight: 900;
@@ -90,7 +90,7 @@ body {
   grid-column: 2/9;
   padding: 5%;
   grid-row: 6/11;
-  font-family: "Roboto", serif;
+  font-family: "Quattrocento", serif;
   color: #333333;
   font-size: 1.2vw;
   font-weight: 100;
@@ -100,9 +100,9 @@ body {
 }
 
 .right-img-2 {
-  grid-column: 11/18;
-  grid-row: 3/17;
-  background-image: url("/img/cat1.jpeg");
+  grid-column: 11/19;
+  grid-row: 3/19;
+  background-image: url("/img/whitelab.jpeg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -118,8 +118,6 @@ body {
   min-height: 5vh;
   max-height: 2vh;
   min-width: 230px;
-  align-content: center;
-  padding: 5%;
 }
 
 .social-icon {
@@ -128,6 +126,13 @@ body {
   max-width: 40px;
   max-height: auto;
   padding: 1.5%;
+  transition-duration: 300ms;
+}
+
+.social-icon:hover {
+  transform: scale(1.35);
+  transition-duration: 300ms;
+  transition-delay: 50ms;
 }
 
 /*# sourceMappingURL=style.css.map */
