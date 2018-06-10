@@ -31,12 +31,9 @@
 <body style="margin: 0">
     
     <div id="fullpage">
-
-    <div class="navbar">
-    </div>
-
         <!-- FIRST CONTAINER -->
         <div class="section">
+        <header class="navbar dark-bg header-text light-text"> THIS IS THE HEADER</header>
             <div class="content dark-bg">
                     <h1 class="left-title">I'M ON THE LIST</h1>
                     <h2 class="left-subtitle"> Will you be the one save me?</h2>
@@ -48,6 +45,8 @@
         <!-- SECOND CONTAINER -->
 
         <div class="section">
+                <header class="navbar light-bg header-text dark-text">THIS IS THE HEADER</header>
+
             <div class="content white-bg">
                 <h1 class="left-title-2"> HELPING SAVE LIVES </h1>   
                 <p class="light-ptext">Pound Patrol is a non-profit community dedicated to dogs on death row. 
@@ -81,23 +80,7 @@
     
     </div>
     
-<script>
 
-    window.onscroll = function() {
-        scrollFunc() };
-
-        const header = document.getElementById("navbar");
-        var navbarOffset = navbar.offsetTop;
-
-        function scrollFunc() {
-            if (window.pageYOffset >= navbarOffset) {
-                header.classList.add("navbar");
-            } else {
-                header.classList.remove("navbar")
-            }
-        }
-
-</script>
 
 </body>
 

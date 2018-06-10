@@ -36,21 +36,17 @@ body
     display: grid
     grid-template-columns: repeat(18, 1fr)
     grid-template-rows: repeat(18, 1fr)
-    min-height: 100vh
-    max-height: 100vh
+    min-height: 90vh
+    max-height: 90vh
     min-width: 100vw
     max-width: 100vw
+    margin-top: 10vh
 
-.menu
+.navbar
     position: fixed
-    opacity: 0
-    top: 0
-    right: 0
-    width: 0
-    height: 60px
-    background: black
- 
-    transition: all 0.35sec ease
+    height: 10vh
+    max-height: 10vh
+    min-width: 100vw 
     z-index: 99
 
 .dark-bg
@@ -94,7 +90,7 @@ body
 
 .right-img
     grid-column: 10/19
-    grid-row: 5/19
+    grid-row: 3/19
     background-image: $dog-img-1
     background-size: contain
     background-position: center
@@ -158,4 +154,17 @@ body
     transform: scale(1.35)
     transition-duration: 300ms
     transition-delay: 50ms
-    
+
+.header-text
+    font-family: $lead-font
+    font-size: 2vw
+    font-weight: 900
+    margin: auto
+    text-align: left
+
+.light-text
+    color: white
+
+.dark-text
+    color: #0f0200
+
