@@ -12,6 +12,8 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
         <script type="text/javascript" src="jquery.fullPage.js"></script>
+
+        <script type="text/javascript" src="/scrollColor.js"></script>
         
         <style>
             @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,600,700|Quattrocento:400,700|Poppins:400,600');
@@ -22,7 +24,9 @@
             $(document).ready(function() {
                 $('#fullpage').fullpage();
             });
+            
         </script>
+
 
     <title>Pound Patrol</title>
     
@@ -30,20 +34,17 @@
 
 <body style="margin: 0">
     
+        <nav id="menu">
+                <a data-menuanchor="firstPage" href="#firstPage">section 1</a>
+                <a data-menuanchor="secondPage" href="#secondPage">section 2</a>
+                <a data-menuanchor="3rdPage" href="#3rdPage">section 3</a>
+                <a data-menuanchor="4thpage" href="#4thpage">section 4</a>
+              </nav>
+
     <div id="fullpage">
         <!-- FIRST CONTAINER -->
         <div class="section">
-
-            <header class="navbar dark-bg light-text">
-                <a href="#"> Home </a>
-                <a href="#"> About </a>
-                <a href="#"> Adopt </a>
-                <a href="#"> Donate </a>
-                <a href="#"> Contact </a>
-            </header>
-
-
-            <div class="content dark-bg">
+            <div class="content dark-bg" id="dark">
                     <h1 class="left-title">I'M ON THE LIST</h1>
                     <h2 class="left-subtitle"> Will you be the one save me?</h2>
                 <div class="downarrow"></div>
@@ -54,14 +55,6 @@
         <!-- SECOND CONTAINER -->
 
         <div class="section">
-
-            <header class="navbar light-bg dark-text">
-                <a href="#"> Home </a>
-                <a href="#"> About </a>
-                <a href="#"> Adopt </a>
-                <a href="#"> Donate </a>
-                <a href="#"> Contact </a>
-            </header>
 
             <div class="content white-bg">
                 <h1 class="left-title-2"> HELPING SAVE LIVES </h1>   
@@ -96,10 +89,8 @@
     
     </div>
     
-<script>
 
-</script>
 
 </body>
-
 </html>
+
